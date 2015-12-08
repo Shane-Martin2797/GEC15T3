@@ -44,12 +44,12 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Users\dkoitka\Desktop\lua-5.3.1\include;C:\Users\dkoitka\Desktop\SFML-2.3.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>./;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\dkoitka\Desktop\lua-5.3.1;C:\Users\dkoitka\Desktop\SFML-2.3.2\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-system-d.lib;liblua53.a;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>./lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Box2D.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -70,17 +70,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BaseResource.cpp" />
-    <ClCompile Include="Logger.cpp" />
-    <ClCompile Include="LuaParser.cpp" />
+    <ClCompile Include="HelloWorld.cpp" />
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="ResourceFactory.cpp" />
-    <ClCompile Include="ResourceManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ResourceManager\BaseResource.hpp" />
     <ClInclude Include="ResourceManager\Logger.hpp" />
-    <ClInclude Include="ResourceManager\LuaParser.hpp" />
     <ClInclude Include="ResourceManager\ResManTests.h" />
     <ClInclude Include="ResourceManager\ResourceCreator.hpp" />
     <ClInclude Include="ResourceManager\ResourceData.hpp" />
@@ -88,7 +83,6 @@
     <ClInclude Include="ResourceManager\ResourceManager.hpp" />
     <ClInclude Include="ResourceManager\ResourceManager\BaseResource.hpp" />
     <ClInclude Include="ResourceManager\ResourceManager\Logger.hpp" />
-    <ClInclude Include="ResourceManager\ResourceManager\LuaParser.hpp" />
     <ClInclude Include="ResourceManager\ResourceManager\ResManTests.h" />
     <ClInclude Include="ResourceManager\ResourceManager\ResourceCreator.hpp" />
     <ClInclude Include="ResourceManager\ResourceManager\ResourceData.hpp" />
