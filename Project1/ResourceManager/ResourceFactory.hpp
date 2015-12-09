@@ -36,8 +36,10 @@
 ////////////////////////////////////////////////////////////
 // Headers
 ////////////////////////////////////////////////////////////
-#include "ResourceManager/BaseResource.hpp"
-#include "ResourceManager/ResourceCreator.hpp"
+//#include <ResourceManager/BaseResource.hpp>
+//#include <ResourceManager/ResourceCreator.hpp>
+#include "BaseResource.hpp"
+#include "ResourceCreator.hpp"
 //#include <ResourceManager/ResourceManager.hpp>
 #include <map>
 
@@ -89,7 +91,9 @@ class ResourceFactory
      static std::map<std::string, std::shared_ptr<ResourceCreatorInterface>> creators;
 };
 
-#include "ResourceManager/ResourceFactory.inl"
+//#include <ResourceManager/ResourceFactory.inl>
+#include "ResourceFactory.inl"
+
 }
 
 #endif //RESOURCE_FACTORY_HPP

@@ -31,9 +31,12 @@
 // Headers
 ////////////////////////////////////////////////////////////
 
-#include "ResourceManager/ResourceFactory.hpp"
-#include "ResourceManager/BaseResource.hpp"
-#include "ResourceManager/Logger.hpp"
+#include "ResourceFactory.hpp"
+#include "BaseResource.hpp"
+#include "Logger.hpp"
+//#include <ResourceManager/ResourceFactory.hpp>
+//#include <ResourceManager/BaseResource.hpp>
+//#include <ResourceManager/Logger.hpp>
 #include <functional>
 #include <string>
 #include <memory>
@@ -346,7 +349,8 @@ private:
 
 };
 
-#include "ResourceManager/ResourceManager.inl"
+//#include <ResourceManager/ResourceManager.inl>
+#include "ResourceManager.inl"
 
 } // rm
 

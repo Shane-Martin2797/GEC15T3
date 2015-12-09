@@ -31,8 +31,10 @@
 // Headers
 ////////////////////////////////////////////////////////////
 
-#include "ResourceManager/ResourceData.hpp"
-#include "ResourceManager/Logger.hpp"
+//#include <ResourceManager/ResourceData.hpp>
+//#include <ResourceManager/Logger.hpp>
+#include "ResourceData.hpp"
+#include "Logger.hpp"
 #include <string>
 #include <list>
 #include <vector>

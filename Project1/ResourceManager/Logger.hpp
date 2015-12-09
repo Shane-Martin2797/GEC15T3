@@ -80,8 +80,8 @@ private:
     static bool doesPrintOut;
 };
 
-#include "ResourceManager/Logger.inl"
-   
+//#include <ResourceManager/Logger.inl>
+#include "Logger.inl"
 }
 
 

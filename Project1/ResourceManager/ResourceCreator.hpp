@@ -31,7 +31,8 @@
 // Headers
 ////////////////////////////////////////////////////////////
 
-#include "ResourceManager/BaseResource.hpp"
+#include "BaseResource.hpp"
+//#include <ResourceManager/BaseResource.hpp>
 #include <memory>
 
 namespace rm 
@@ -62,8 +63,8 @@ public:
     std::shared_ptr<BaseResource> create() override;
 };
 
-#include "ResourceManager/ResourceCreator.inl"
-
+//#include <ResourceManager/ResourceCreator.inl>
+#include "ResourceCreator.inl"
 }
 
 #endif //RESOURCE_ALLOCATOR_HPP
