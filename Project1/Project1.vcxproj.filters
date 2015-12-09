@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="BaseResource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -25,6 +22,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="LuaParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ResourceFactory.cpp">
@@ -35,30 +35,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ResourceManager\ResourceManager\BaseResource.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ResourceManager\ResourceManager\Logger.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ResourceManager\ResourceManager\LuaParser.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ResourceManager\ResourceManager\ResManTests.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ResourceManager\ResourceManager\ResourceCreator.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ResourceManager\ResourceManager\ResourceData.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ResourceManager\ResourceManager\ResourceFactory.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ResourceManager\ResourceManager\ResourceManager.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="ResourceManager\BaseResource.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -85,18 +61,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ResourceManager\ResourceManager\Logger.inl">
-      <Filter>Header Files</Filter>
-    </None>
-    <None Include="ResourceManager\ResourceManager\ResourceCreator.inl">
-      <Filter>Header Files</Filter>
-    </None>
-    <None Include="ResourceManager\ResourceManager\ResourceFactory.inl">
-      <Filter>Header Files</Filter>
-    </None>
-    <None Include="ResourceManager\ResourceManager\ResourceManager.inl">
-      <Filter>Header Files</Filter>
-    </None>
     <None Include="ResourceManager\Logger.inl">
       <Filter>Header Files</Filter>
     </None>
